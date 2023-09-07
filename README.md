@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+CocktailHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CocktailHub is a cocktail and mocktail recipe website inspired by Ricardo's Cuisine style. It provides a platform for users to discover, create, and share their favorite drink recipes, fostering a community of mixology enthusiasts. With CocktailHub, users can explore new drinks, review recipes, and connect with others who share their passion for mixology.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Home Page
 
-### `npm start`
+Search Bar: Users can easily search for specific cocktail or mocktail recipes by name or ingredients.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Popular Drinks: Displays a list of the most popular recipes based on user ratings and reviews.
+  My Favorites: Allows users to save and access their collection of favorite recipes.
+  
+Drink of the Day
+  Presents a random cocktail or mocktail recipe every day, encouraging users to try something new and exciting.
+  
+Recipe Pages
+  Each recipe page provides detailed information about the cocktail or mocktail, including ingredients, preparation steps, and an image.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+User Profiles
+  User Registration: Users can create profiles to access personalized features.
+  Favorite Drinks: Users can add recipes to their favorites list for quick access.
+  Reviews and Ratings: Users can leave reviews and ratings for each recipe they try.
+  Guest Access: Non-logged-in users can view recipes, but they cannot leave reviews or ratings.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+APIs & Packages Used
 
-### `npm run build`
+APIs
+TheCocktailDB: We utilize TheCocktailDB API to access an extensive database of cocktail and mocktail recipes. https://www.thecocktaildb.com/api.php
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Packages
+React: We used React for building the frontend components, creating a dynamic and interactive user interface.
+Auth0 (Stretch Goal): While not implemented yet, Auth0 will be used for user authentication and secure login in the future.
+React Router: React Router is used to handle navigation between different pages, ensuring a smooth user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Work in Progress
+We are continually improving CocktailHub to enhance the user experience and community engagement. Here are some exciting features that are currently in development:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Adding Friends: Soon, users will be able to connect with others, share recipes, and view each other's favorite drinks.
+Share List: Users will have the option to create and share lists of their favorite cocktails and mocktails, further fostering a sense of community.
+Share Cocktails: We are working on enabling users to share their unique cocktail and mocktail recipes with the CocktailHub community, promoting user-generated content and creativity.
+CocktailHub is all about celebrating mixology and the joy of crafting and sharing delicious drinks. We hope you enjoy using the platform and discovering new recipes or sharing your own mixology creations. Cheers! 🍹🍸🥂
