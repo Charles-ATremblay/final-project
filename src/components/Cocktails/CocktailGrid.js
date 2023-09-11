@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../Auth0Provider';
 
 const alphabet = 'abcdefghijklmnopqrstuvwxyz';
 

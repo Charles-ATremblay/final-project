@@ -160,14 +160,14 @@ const getUserFavorites = async (req, res) => {
   
 // Add a cocktail to a user's favorites
 const addFavorite = async (req, res) => {
-  // Extract the user ID and cocktail data from the request body
-  const { userId } = req.params;
-  const { cocktail } = req.body;
-
-  // Use your MongoDB client to update the user's favorites
-  const usersCollection = client.db(DB_NAME).collection("users");
-
   try {
+    // Extract the user ID and cocktail data from the request body
+    const { userId } = req.params;
+    const { cocktail } = req.body;
+
+    // Use your MongoDB client to update the user's favorites
+    const usersCollection = client.db(DB_NAME).collection("users");
+
     // Update the user's document to add the new favorite cocktail
     const result = await usersCollection.updateOne(
       { _id: userId },
